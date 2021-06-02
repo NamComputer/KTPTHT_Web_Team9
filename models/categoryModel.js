@@ -4,9 +4,9 @@ const categorySchema = new mongoose.Schema(
   {
     name: {
       type: String,
-      required: true,
-      trim: true,
-      unique: true,
+      required: true,//Luôn yêu cầu
+      trim: true,//Loại bỏ khoảng trắng hai đầu
+      unique: true,// Ko trùng tên sản phẩm 
     },
   },
   {
